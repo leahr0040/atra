@@ -1,0 +1,24 @@
+.container{
+    width: 1000vw;
+    height: 1000vh;
+}
+.width1{
+    background-color: red;
+   
+}
+@media(min-width:600px){
+    .width2{
+        background-color:lightblue;
+    }
+    @media(min-width:768px) {
+        .width3{
+ background-color:green;
+        }
+ @media(min-width:922px){
+    .width4{
+    background-color:purple;
+    }
+  }
+        
+}
+}

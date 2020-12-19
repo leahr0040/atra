@@ -1,0 +1,20 @@
+.container{
+    width: 1000vw;
+    height: 1000vh;
+}
+.display-none{
+    display: none;
+    width: 25vw;
+    height: 200px;
+}
+@media(min-width:600px){
+    .img1{
+        display:inline ;
+    }
+    @media(min-width:922px) {
+        .img2{
+            display: inline;
+        }
+   
+}
+}
