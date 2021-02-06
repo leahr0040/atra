@@ -1,0 +1,10 @@
+const fun= require('./fun')
+const  fun2= require('./fun')()
+const myClass=require('./class')
+const performance= require('./perform')
+
+console.log(fun())
+console.log(fun2)
+const class1=new myClass('Leah',20,'Haifa')
+console.log(class1)
+console.log(performance)
